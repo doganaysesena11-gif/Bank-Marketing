@@ -27,11 +27,13 @@ The bank marketing dataset includes the following features:
 ## Models
 - **Logistic Regression** (scikit-learn)  
 - **Decision Tree Classifier** (max_depth=4, min_samples_split=10)  
+- **Random Forest Classifier** (n_estimators=400, max_depth=5)  
 - Models were trained on numerical and encoded categorical features.  
 
 ## Evaluation
 - Logistic Regression accuracy: ~0.79 (test data)  
 - Decision Tree Classifier accuracy: ~0.79 (training data)  
+- Random Forest Classifier accuracy: [insert score from your run] (test data)  
 - Decision tree visualization highlights the most influential features.  
 
 ## Prediction Example
@@ -40,3 +42,4 @@ The models can predict deposit subscription for new client data based on demogra
 ## Notes
 - This is a learning-focused project.  
 - Future improvements may include feature scaling, hyperparameter tuning, and testing additional classification models.  
+
